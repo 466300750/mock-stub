@@ -1,6 +1,5 @@
 public class Printer {
 
-    private String printContent;
     private boolean isPrinted;
 
     public void print(String printString) {
@@ -15,11 +14,4 @@ public class Printer {
         isPrinted = printed;
     }
 
-    public String getPrintContent() {
-        return printContent;
-    }
-
-    public void setPrintContent(String printContent) {
-        this.printContent = printContent;
-    }
 }
